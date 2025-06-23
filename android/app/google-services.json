@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "618060458330",
+    "project_id": "nutra-675cd",
+    "storage_bucket": "nutra-675cd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618060458330:android:fa787b20e3d62e4f5b6b63",
+        "android_client_info": {
+          "package_name": "br.com.nutraentes.nutra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiZOrqWxcBjdEY1aTLFLDlLCzyu0FrtwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618060458330:android:78576fe30f44c2e35b6b63",
+        "android_client_info": {
+          "package_name": "com.mycompany.nutra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiZOrqWxcBjdEY1aTLFLDlLCzyu0FrtwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
