@@ -1,0 +1,127 @@
+import 'package:flutter/material.dart';
+
+class CaracteristicasConstants {
+  static const List<Map<String, String>> formatos = [
+  { "nome": "Redondo", "svg": "assets/formatos/redondo.svg" },
+  { "nome": "Oval", "svg": "assets/formatos/oval.svg" },
+  { "nome": "Cilíndrico", "svg": "assets/formatos/cilindrico.svg" },
+  { "nome": "Esférico", "svg": "assets/formatos/esferico.svg" },
+  { "nome": "Elíptico", "svg": "assets/formatos/eliptico.svg" },
+  { "nome": "Triangular", "svg": "assets/formatos/triangular.svg" },
+  { "nome": "Cuboidal", "svg": "assets/formatos/cuboidal.svg" },
+  { "nome": "Plano", "svg": "assets/formatos/plano.svg" },
+  { "nome": "Cônico", "svg": "assets/formatos/conico.svg" },
+  { "nome": "Espiral", "svg": "assets/formatos/espiral.svg" },
+  { "nome": "Irregular", "svg": "assets/formatos/irregular.svg" },
+  { "nome": "Almofadado", "svg": "assets/formatos/almofadado.svg" },
+  { "nome": "Rodela", "svg": "assets/formatos/rodela.svg" },
+  { "nome": "Filete", "svg": "assets/formatos/filete.svg" },
+  { "nome": "Laminado", "svg": "assets/formatos/laminado.svg" },
+  { "nome": "Bloco", "svg": "assets/formatos/bloco.svg" },
+  { "nome": "Granulado", "svg": "assets/formatos/granulado.svg" },
+];
+
+  static const List<String> odor = [
+    "Frutado",
+    "Terroso",
+    "Adocicado",
+    "Salgado",
+    "Pungente",
+    "Neutro",
+    "Floral",
+    "Herbáceo",
+  ];
+
+  static const List<String> paladar = [
+    "Doce",
+    "Salgado",
+    "Azedo",
+    "Amargo",
+    "Amanteigado",
+    "Neutro",
+    "Picante",
+    "Apimentado",
+    "Mentolado",
+    "Alcaçuz",
+    "Frutado",
+    "Herbal",
+    "Ácido",
+    "Resinoso",
+  ];
+
+  static const List<String> textura = [
+    "Crocante",
+    "Macia",
+    "Suculenta",
+    "Fibrosa",
+    "Cremosa",
+    "Dura",
+    "Áspero",
+    "Liso",
+    "Rugoso",
+    "Ondulado",
+    "Boleado",
+  ];
+
+  static const List<String> som = [
+    "Crocante",
+    "Silencioso",
+    "Estaladiço",
+    "Mastigável",
+    "Suave",
+    "Croque-Croque",
+    "Crispante",
+    "Crepitante",
+    "Gorduroso",
+    "Grudento",
+    "Aquoso",
+    "Farinhento",
+    "Pegajoso",
+  ];
+
+  static const List<Map<String, dynamic>> cores = [
+    { "name": "Vermelho", "value": Color(0xFFFF0000) },
+    { "name": "Laranja", "value": Color(0xFFFFA500) },
+    { "name": "Amarelo", "value": Color(0xFFFFFF00) },
+    { "name": "Magenta", "value": Color(0xFFFF00FF) },
+    { "name": "Ciano", "value": Color(0xFF00FFFF) },
+    { "name": "Roxo", "value": Color(0xFF800080) },
+    { "name": "Ouro", "value": Color(0xFFFFD700) },
+    { "name": "Rosa", "value": Color(0xFFFFC0CB) },
+    { "name": "Amarelo Claro", "value": Color(0xFFFFFFE0) },
+    { "name": "Laranja Claro", "value": Color(0xFFFFA07A) },
+
+    { "name": "Verde Claro", "value": Color(0xFF90EE90) },
+    { "name": "Azul Claro", "value": Color(0xFFADD8E6) },
+    { "name": "Ciano Claro", "value": Color(0xFFE0FFFF) },
+    { "name": "Magenta Claro", "value": Color(0xFFFFB6C1) },
+    { "name": "Verde Limão", "value": Color(0xFF32CD32) },
+    { "name": "Azul Marinho", "value": Color(0xFF000080) },
+    { "name": "Vermelho Escuro", "value": Color(0xFF8B0000) },
+    { "name": "Verde Escuro", "value": Color(0xFF006400) },
+    { "name": "Azul Escuro", "value": Color(0xFF00008B) },
+    { "name": "Amarelo Escuro", "value": Color(0xFFB8860B) },
+
+    { "name": "Laranja Escuro", "value": Color(0xFFFF8C00) },
+    { "name": "Roxo Escuro", "value": Color(0xFF4B0082) },
+    { "name": "Ciano Escuro", "value": Color(0xFF008B8B) },
+    { "name": "Magenta Escuro", "value": Color(0xFF8B008B) },
+    { "name": "Cinza Claro", "value": Color(0xFFD3D3D3) },
+    { "name": "Cinza Escuro", "value": Color(0xFFA9A9A9) },
+    { "name": "Verde Musgo", "value": Color(0xFF808000) },
+    { "name": "Azul Turquesa", "value": Color(0xFF40E0D0) },
+    { "name": "Lavanda", "value": Color(0xFFE6E6FA) },
+    { "name": "Bege Claro", "value": Color(0xFFF5F5F5) },
+
+    { "name": "Pêssego", "value": Color(0xFFFFDAB9) },
+    { "name": "Turquesa", "value": Color(0xFF30D5C8) },
+    { "name": "Limão", "value": Color(0xFFE4FF00) },
+    { "name": "Verde", "value": Color(0xFF008000) },
+    { "name": "Azul", "value": Color(0xFF0000FF) },
+    { "name": "Cinza", "value": Color(0xFF808080) },
+    { "name": "Preto", "value": Color(0xFF000000) },
+    { "name": "Branco", "value": Color(0xFFFFFFFF) },
+    { "name": "Bege", "value": Color(0xFFF5F5DC) },
+    { "name": "Marrom", "value": Color(0xFFA52A2A) },
+  ];
+}

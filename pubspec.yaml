@@ -63,7 +63,9 @@ flutter_icons:
 
 flutter:
   assets:
-    - assets/Categorias/
+    - assets/categorias/
+    - assets/alergenos/
+    - assets/sistema/ImagemNDisponivel.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

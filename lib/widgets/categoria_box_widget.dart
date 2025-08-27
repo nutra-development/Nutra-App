@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CategoriesComponentWidget extends StatelessWidget {
+class CategoriaBoxWidget extends StatelessWidget {
   final String nome;
   final String imagem;
   final Color corFundo;
 
-  const CategoriesComponentWidget({
+  const CategoriaBoxWidget({
     super.key,
     required this.nome,
     required this.imagem,
